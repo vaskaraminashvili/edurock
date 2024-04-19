@@ -2,6 +2,32 @@
   font-size: 13px;
   font-family: bm;
 }
-.headerarea__2 .row {
+.headerarea .headerarea__submenu li a{
+  font-size: 13px;
+  font-family: bm;
+}
+/* .headerarea__2 .row {
   align-items: flex-start;
+} */
+
+.headerarea__main__menu nav ul > li a {
+  font-size: 11px;
+  padding: 30px 10px;
+}
+.main_home{
+  display: inline-block;
+  position: relative;
+}
+.site_main_logo{
+  z-index: 2;
+  max-width: 220px;
+  height: 90px;
+  object-fit: contain;
+  position: relative;
+  /* top: 10px; */
+  /* transform: translate(50%,-50%); */
+}
+
+.headerarea__main__menu{
+  text-align: left;
 }
